@@ -2,6 +2,8 @@ import sqlite3
 from pyautogui import prompt as scan
 from pyautogui import alert
 
+#Requires pip install of sqlite3 & pyautogui
+
 def connectdb():
           # Create table
         try:
